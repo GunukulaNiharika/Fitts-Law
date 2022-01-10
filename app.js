@@ -19,6 +19,6 @@ app.use(express.json());
 app.set('views', __dirname + '/views');
 
 app.listen(process.env.PORT);
-app.get('/', (req,res)=> res.redirect('/fitts'));
+app.get('/', (req,res)=> res.render('/fitts'));
 app.get('/fitts',(req,res)=>res.render('fitts'));
 app.get('/graphs',(req,res)=>res.render('graphs'));
