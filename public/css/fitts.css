@@ -1,0 +1,35 @@
+body {
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #d1e0e0;
+}
+button{
+    background-color: brown;
+    border-radius: 4cm;
+    text-align: center;
+    align-self: center;
+    font-size: medium;
+    color: black;
+    padding: 1em;
+    
+}
+#heading{
+    text-align: center;
+    padding-top: 8em;
+    font-size: 2em;
+    color: rgb(129, 17, 182);
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+  }
+
+tbody{
+    overflow: scroll;
+}

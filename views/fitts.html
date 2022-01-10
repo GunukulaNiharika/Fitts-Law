@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/fitts.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        
+        <title>Fitt's Law</title>
+    </head>
+    <body >
+            <div id="simulator">
+                <h3 id="heading" >Visualizing Fitt's Law</h3>
+                <div id="start" class="center">
+                    <button id="button" onclick="startgame(event)"> Start</button>
+                </div>
+                <div id="graph" class="center" style="display: none;">
+                    <a href="/graphs"> <button id="button" onclick="send()"> Show Graph</button></a>
+                </div>
+                <!-- <div id= "Chart" style="display: none;" >
+                    <canvas id="myChart" style="padding-top: 1em; "></canvas>
+                    <button id="showtable"  onclick="showtable()">Show Tables</button>
+                </div>
+                <div id="Table" style="padding: 2em; display: none;">
+                <button id="showtable"  onclick="showgraphs()" style="margin: 2em;">Show graph</button>  
+                </div> -->
+                
+                
+            </div>
+    </body>
+    <script type="text/javascript" src="js/fitts.js"></script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/graphs.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        
+        <title>Fitt's Law</title>
+    </head>
+    <body >
+        <div id="container">
+            <div id="header">
+                <h1 style="display: inline-block; "> Charts and Tables</h1>
+                <button id="openSimulator" onclick="window.location.href='/fitts'"> Simulator</button>
+            </div>
+            <div id="graph">
+                <div id= "Chart" style=" color: aqua; float: left;" >
+                    <canvas id="myChart" style="padding: 1em; "></canvas>
+                </div>
+                <div id="Table" style="padding: 2em; float: right;">
+                </div>
+            </div>
+        </div>
+            
+    </body>
+    <script type="text/javascript" src="js/graphs.js"></script>
+   
+</html>
