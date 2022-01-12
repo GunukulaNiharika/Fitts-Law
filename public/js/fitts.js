@@ -2,7 +2,7 @@ var distance = []
 var target_width = []
 var time = []
 var x=[], y=[], r=[];
-var total = 10;
+var total = 30;
 var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 
 var svgNS = "http://www.w3.org/2000/svg";
